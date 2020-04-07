@@ -1,0 +1,219 @@
+body
+{
+	margin: 0px;
+}
+.nav
+{
+	background-color: rgb(30,144,255);
+	overflow: hidden;
+}
+
+#test_b
+{
+	margin-left: 20%;
+}
+
+.nav a
+{
+	float: left;
+	color: white;
+	text-align: center;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-right: 30px;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+.nav a:hover
+{
+	color: gray;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 50px;
+	
+}
+
+.instructiuni
+{
+	margin-top: 0px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 22px;
+}
+
+#prim_info
+{
+	margin-top: 48px;
+}
+
+.button1
+{
+	margin-left: 20%;
+	margin-top: 100px;
+	margin-bottom: 150px;
+	height: 450px;
+	width: 800px;
+	font-size: 48px;
+	color: white;
+	padding-top: 0px;
+	border: 1px solid black;
+}
+
+.button2
+{
+	margin-left: 20%;
+	margin-top: 100px;
+	margin-bottom: 150px;
+	height: 450px;
+	width: 800px;
+	font-size: 48px;
+	color: white;
+	padding-top: 0px;
+	border: 1px solid black;
+}
+.button3
+{
+	margin-left: 20%;
+	margin-top: 100px;
+	margin-bottom: 150px;
+	height: 450px;
+	width: 800px;
+	font-size: 48px;
+	color: white;
+	padding-top: 0px;
+	border: 1px solid black;
+}
+.button4
+{
+	margin-left: 20%;
+	margin-top: 100px;
+	margin-bottom: 150px;
+	height: 450px;
+	width: 800px;
+	font-size: 48px;
+	color: white;
+	padding-top: 0px;
+	border: 1px solid black;
+}
+.button5
+{
+	margin-left: 20%;
+	margin-top: 100px;
+	margin-bottom: 150px;
+	height: 450px;
+	width: 800px;
+	font-size: 48px;
+	color: white;
+	padding-top: 0px;
+	border: 1px solid black;
+}
+
+#button1
+{
+	background-color: rgb(30,144,255);
+	display: block;
+}
+
+#button2
+{
+	background-color: red;
+	display: none;
+}
+
+#button3
+{
+	background-color: green;
+	display: none;
+}
+
+#button4
+{
+	background-color: rgb(30,144,255);
+	display: none;
+}
+
+#button5
+{
+	background-color: rgb(30,144,255);
+	display: none;
+}
+
+.despre_test
+{
+	font-size: 18px;
+	margin-top: 10px;
+	width: 35%;
+}
+
+h2
+{
+	font-size: 34px;
+}
+
+img
+{
+	height: 360px;
+	width: 500px;
+	float: right;
+	margin-left: 0px;
+	margin-right: 10%;
+	margin-top: 0px;
+}
+
+#despre_test_div
+{
+	margin-top: 60px;
+	margin-left: 20%;
+	margin-bottom: 100px;
+}
+
+#copyright_bar
+{
+	width: 100%;
+	height: 80px;
+	background-color: gray;
+	margin-top: 300px;
+}
+
+#copyright
+{
+	font-size: 15px;
+	color: white;
+	margin-left: 80%;
+	margin-bottom: 5px;
+	padding-top: 10px;
+}
+
+#contact
+{
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+	margin-left: 80%;
+}
+
+#copyright_bar_contact
+{
+	margin-top: 38.5%;
+	width: 100%;
+	height: 80px;
+	background-color: gray;
+}
+
+.info_contact
+{
+	margin-left: 20%;
+	font-size: 25px;
+	margin-top: 100px;
+	font-weight: bold;
+}
+
+li
+{
+	margin-left: 19%;
+	font-size: 20px;
+}
