@@ -8,22 +8,13 @@ var now, later,n, click=0;
 
 
 button1.addEventListener("click", function(){
-	click++;
-	if(click==1)
-	{
-	n = Math.floor(Math.random() * 6000) + 1000; 
-	button1.style.backgroundColor= "red";
-	button1.innerHTML= "Așteaptă culoarea verde...";
-	setTimeout(function() {document.getElementById("button1").style.display = "none";}, n);
+	
+	n = Math.floor(Math.random() * 6000) + 1000;
+	document.getElementById("button1").style.display = "none";
+	document.getElementById("button2").style.display = "block";
+	setTimeout(function() {document.getElementById("button2").style.display = "none";}, n);
 	setTimeout(function() { document.getElementById("button3").style.display = "block";}, n);
 	now = Date.now();
-	}
-	else
-	{
-		button1.style.backgroundColor = "rgb(30,144,255)";
-		button1.innerHTML= "Prea repede!";
-		document.getElementById("button3").style.display = "none";
-	}
 }, false);
 
 
@@ -36,7 +27,6 @@ button3.addEventListener("click", function(){
 
 button4.addEventListener("click", function(){
 	document.getElementById("button4").style.display = "none";
-	document.getElementById("button1").style.display = "none";
 	document.getElementById("button2").style.display = "block";
 	setTimeout(function() {document.getElementById("button2").style.display = "none";}, n);
 	setTimeout(function() { document.getElementById("button3").style.display = "block";}, n);
